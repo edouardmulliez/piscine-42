@@ -1,0 +1,1 @@
+TEST=`stat -c%X bomb.txt` && echo $((TEST-1))
